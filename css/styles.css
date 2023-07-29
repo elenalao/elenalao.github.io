@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+  max-width: 100%;
+}
+
+p {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+}
+
+#remainingtime {
+  color: blue;
+}
+
+/* Media Queries for Responsive Design */
+/* For mobile devices */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
